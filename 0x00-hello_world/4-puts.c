@@ -1,7 +1,10 @@
 #include <stdio.h>
+/**
+ * main -using puts function to print a message
+ * Return: 0 (success)
+ */
 int main(void)
 {
-char MyString[] = ("Programming is like building a multilingual puzzle\n");
-	  puts(MyString);
+puts("\"Programmingislikebuildingamultilingualpuzzle");
 return (0);
 }
