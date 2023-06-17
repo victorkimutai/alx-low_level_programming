@@ -5,9 +5,7 @@
  */
 int main(void)
 {
-int n;
-printf("enter the value of n");
-scanf("%d", &n);
+int n = 98;
 if (n < 0)
 {
 printf("%d is negative", n);
