@@ -30,6 +30,8 @@ else
 {
 for (; n >= 98; n--)
 {
+if (n == 98)
+{
 printf("%d", n);
 printf("\n");
 break;
@@ -40,5 +42,5 @@ printf("%d, ", n);
 }
 }
 }
-
+}
 
