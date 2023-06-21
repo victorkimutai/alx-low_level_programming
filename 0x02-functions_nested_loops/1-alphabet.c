@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * main -Entry point
- * Return: (0) (success)
+ * print_alphabet -Entry point
+ * Return: (void) (success)
  */
+void print_alphabet(void)
 {
 int m;
 
 for (m = 'a'; m <= 'z'; m++)
 _putchar(m);
 _putchar('\n');
-return (0);
 }
