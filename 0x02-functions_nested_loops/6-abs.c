@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abcs -entry point
+ * _abs -entry point
  * @c: The number to be computed.
  * Return: Absolute value of number or zero
  */
