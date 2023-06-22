@@ -10,12 +10,12 @@ void more_numbers(void)
 {
 int m, j;
 
-for (m = 0; m <= 10; m++)
+for (m = 1; m <= 10; m++)
 {
 for (j = 0; j <= 14; j++)
 {
 if (j >= 10)
-putchar('m');
+putchar('1');
 putchar(j % 10 + '0');
 }
 putchar('\n');
