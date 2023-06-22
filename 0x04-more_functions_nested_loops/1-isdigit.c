@@ -1,9 +1,10 @@
 #include "main.h"
- /**
-  * _isdigit - It check fot the digit
-  * @c: carries the digits
-  * Return: return 1 for digit or otherwise 0
-  */
+
+/**
+ * _isdigit -Entry point
+ * @c: Character to be checked
+ * Return: 1 for digit character or 0 for anything
+ */
 
 int _isdigit(int c)
 {
