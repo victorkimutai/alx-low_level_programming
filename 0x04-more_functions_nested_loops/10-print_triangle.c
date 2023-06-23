@@ -18,11 +18,11 @@ else
 {
 for (r = 1; r <= size; r++)
 {
-for (space = size - row; spaces >= 1; space--)
+for (s = size - r; s >= 1; s--)
 {
 putchar(' ');
 }
-for (h = 1; h <= row; h++)
+for (h = 1; h <= r; h++)
 {
 putchar('#');
 }
