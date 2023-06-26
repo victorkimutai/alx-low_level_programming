@@ -14,7 +14,7 @@ int m;
 int l;
 
 m = 0;
-while (m != '\0')
+while (*s != '\0')
 {
 m++;
 s++;
