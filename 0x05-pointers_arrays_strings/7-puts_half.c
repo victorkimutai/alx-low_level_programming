@@ -11,12 +11,14 @@ z = 0;
 for (d = 0; str[d] != '\0'; d++)
 z++;
 
-n = (z / 2);
+b = (z / 2);
 
 if ((z % 2) == 1)
 b = ((z + 1) / 2);
 
 for (d = b; str[d] != '\0'; d++)
+{
 putchar(str[d]);
 putchar('\n');
+}
 }
