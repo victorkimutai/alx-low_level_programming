@@ -17,6 +17,6 @@ for (num = 0; num < 8; num++)
 {
 putchar(a[line][num]);
 }
-putchar('\0');
+putchar('\n');
 }
 }
