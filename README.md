@@ -1,1 +1,1 @@
-more o function nested loops
+more of function nested loops
