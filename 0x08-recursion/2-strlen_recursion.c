@@ -4,17 +4,17 @@
 /**
  * _strlen_recursion - prints the length of the string
  * @s: The string to be measured
- * Return: void
+ * Return: the lenghth of the string
  */
 
 int _strlen_recursion(char *s)
 {
-int m;
+int m = 0;
 
 if (*s)
 {
 m++;
 m += _strlen_recursion(s + 1);
 }
-return(m);
+return (m);
 }
