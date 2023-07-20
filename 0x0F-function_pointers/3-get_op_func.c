@@ -22,7 +22,7 @@ int l = 0;
 
 while (l < 10)
 {
-if (s[0] == ops -> op[l])
+if (s[0] == ops->op[l])
 break;
 l++;
 }
